@@ -1,9 +1,11 @@
 // Iteration 1: Names and Input
-let hacker1 = "John"
+
+/* let hacker1 = "John"
 let hacker2 = "yyy"
 
-// console.log(`The driver's name is ${hacker1}`)
-// console.log(`The driver's name is ${hacker2}`)
+console.log(`The driver's name is ${hacker1}`)
+console.log(`The driver's name is ${hacker2}`) 
+*/
 
 // Iteration 2: Conditionals
 
@@ -22,7 +24,7 @@ let hacker2 = "yyy"
 
 // Iteration 3: Loops
 
-/// J O H N
+///// J O H N
 
 /*let uppercased = hacker1.toUpperCase();
 let final = ""
@@ -38,7 +40,7 @@ console.log(final)
 
 
 
-///reversed nhoJ
+/////reversed nhoJ
 
 /*let reversed = ""
 
@@ -50,6 +52,37 @@ for (let i=hacker1.length-1; i >= 0; i-- ) {
 
 // console.log(reversed)
 */
+
+/////lexicographic order
+
+/*let hacker1 = "aaab"
+let hacker2 = "aaac"
+
+
+let orden = hacker1.localeCompare(hacker2)
+
+if (orden > 0) {
+    console.log("The driver's name goes first.")
+
+}
+else if(orden <0){
+    console.log("Yo, the navigator goes first, definitely.")
+
+} 
+else {
+    console.log('What?! You both have the same name?')
+    
+}
+
+*/
+
+
+
+
+
+
+
+
 
 
 ///BONUS
@@ -66,7 +99,7 @@ for( let i=0; i<longText.length;  i++){
 
 /// Bonus2
 
-let phraseToCheck = "Race car"
+/* let phraseToCheck = "Race car"
 let reversedPalindrome = ""
 
 for(let i=phraseToCheck.length-1; i>=0; i--){
@@ -84,6 +117,6 @@ console.log(reversedPalindrome)
         console.log('Its not a palindrome')
     }
 
-
+*/
 
 
